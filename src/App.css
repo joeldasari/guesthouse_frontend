@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  color: white;
+}
+
+.navbarRight {
+  display: flex;
+  gap: 10px;
+}
+
+.navLinks {
+  text-decoration: none;
+  color: white;
+}
+
+.navLinks:hover {
+  color: lightgray;
+}
+
+.Admin {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adminForm {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+
+.adminAuthentication {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+
+.hodLogin {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.else {
+  display: flex;
+  gap: 10px;
+}
+
+.homeComponent {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  gap: 10px;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.rooms {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.roomTitle {
+  display: inline;
+  margin-right: 10px;
+}
+
+.room {
+  display: flex;
+  gap: 10px;
+  margin: 10px;
+}
+
+.formToSubmit {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitForm {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.twoLists {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.acceptedRejected {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  margin: 10px;
+}
+
+.adminPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 90vh;
+  height: 100%;
+  gap: 20px;
+}
+
+.request {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  min-width: 400px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.landingPage {
+  height: 90vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/landingPage.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.displayText {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  z-index: 1;
+  color: white;
+}
+
+.displayTextNext {
+  position: absolute;
+  top: 46%;
+  left: 36%;
+  z-index: 1;
+  color: white;
+}
+
+.checkboxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.availableDates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
